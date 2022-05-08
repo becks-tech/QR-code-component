@@ -16,25 +16,23 @@
 
 body{
     background-color: var(--light-gray);
+    
+}
+.card{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-}
-.card{
     text-align: center;
     box-shadow: 10px 10px 44px -9px rgba(31,50,81,0.25);
     border-radius: 25px;
     background-color: var(--white);
-    margin-top: 100px; /*figure how to center it relative to the screen, not using margins etc.*/
+    margin-top: 250px; 
     position: relative;
     max-width: 350px; 
 }
 .img-container{
     padding: 17px;
-    overflow: hidden;
 }
 .img-container img{
     border-radius: 10px;
@@ -53,17 +51,6 @@ body{
     color: var(--grayish-blue);
     padding: 15px 40px 40px 40px;
 }
-
-@media screen and (max-width: 375px) {
-    body{
-        background-color: var(--grayish-blue);
-    }
-    .card{
-        width: 50%;
-    }
-
-}
-
 
 
 .attribution { 
